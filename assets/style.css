@@ -1,14 +1,12 @@
-:root {
-    --first-color: #882491; 
-    --second-color: #6ef7f7; 
-    --third-color: #a870ec;
-    --round-corners: 10px;
-}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.name {
+    color:antiquewhite;
 }
 
 body {
@@ -20,7 +18,6 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: var(--second-color);
 }
 
 header div {
@@ -29,7 +26,7 @@ header div {
 }
 
 header a {
-    color: var(--first-color);
+    color: antiquewhite;
     text-decoration: none;
 }
 
@@ -41,8 +38,8 @@ header a {
     align-content: center;
     font-size: 20px;
     margin: 5px 10px;
-    background-color: var(--second-color);
-    color: var(--first-color);
+    background-color:antiquewhite;
+    color:bisque;
 }
 
 .portfolio__title {
@@ -98,7 +95,7 @@ header a {
 }
 
 .contact-info {
-    background-color: var(--second-color);
+    background-color: brown;
     margin: 20px;
     text-align: center;
 
